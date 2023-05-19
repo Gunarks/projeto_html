@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+
+.cabecalho {
+    background-image: url('../images/bg-3.jpg');
+    height: 500px;
+    background-size: cover;
+    background-position: right, center;
+    padding: 1px;
+}
+
+.title {
+    width: 80%;
+    margin: 50px auto ;
+    text-align: center;
+    color: #FFF;
+}
+
+.title h1 {
+    font-size: 56px;
+    text-shadow: 2px 2px 2px #000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.title p {
+    background-color: rgba(0, 0, 0, .5);
+    border-bottom:2px solid;
+    font-size: 18px;
+    display: inline-block;
+    padding: 12px;
+}
+
+.navbar ul {
+    text-align: right;
+    margin: 20px 50px 0 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+    border: 1px solid #FFF;
+    list-style-type: none;
+    margin-left: 10px;
+}
+.navbar ul li a {
+    display: block;
+    background-color: rgba(0, 0, 0, .3);
+    padding: 16px;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all .4s ease-in-out;
+}
+
+.navbar ul li a:hover {
+    background-color: rgba(0, 0, 0, .6);
+}
+
+main {
+    width: 90%;
+    max-width: 860px;
+    margin: auto;
+}
+
+.container {
+    padding: 20px;
+}
+
+.content {
+    background-color: #FFF;
+    padding: 16px;
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    border-bottom: 2px solid #ccc;
+    background-color: #eee;
+    padding: 10px;
+    margin-top: 0;
+}
+
+.content a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #ccc;
+    font-size: 15px;
+    padding: 10px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.rodape {
+    color: #fff;
+    background-color: #6b6c68;
+    text-align: center;
+    padding: 20px;
+}
