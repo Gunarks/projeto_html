@@ -62,7 +62,7 @@ body{
     background-color: rgba(0, 0, 0, .6);
 }
 
-main {
+.container {
     width: 90%;
     max-width: 860px;
     margin: auto;
